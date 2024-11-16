@@ -1,0 +1,71 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  font-family: sans-serif;
+  color: #333;
+  background-color: #f3e4d7;
+} */
+
+/* height of the container */
+.leaflet-container {
+  height: 100% !important;
+  width: 100%;
+  /* border-radius: 2rem; */
+}
+
+.grayscale-tile {
+  filter: grayscale(100%);
+}
+
+/* Customize the popup background */
+.leaflet-popup-content-wrapper {
+  background-color: #FF6A19 !important;
+  /* Light gray background */
+  color: #fff !important;
+  /* Text color */
+  padding: 10px;
+  /* Padding inside the popup */
+  border-radius: 10px;
+  font-weight: bold;
+  /* Rounded corners */
+}
+
+.leaflet-popup-close-button {
+  color: #fff !important;
+  /* Change the color of the close icon */
+  font-size: 18px;
+  /* Adjust size if necessary */
+  font-weight: bold;
+  display: none;
+  /* Make the icon bold */
+}
+
+/* Change the popup tip (the small triangle pointer) color */
+.leaflet-popup-tip {
+  background-color: #FF6A19 !important;
+  color: #fff !important;
+  /* Same color as popup background */
+}
+
+.cluster-icon {
+  background-color: #333;
+  height: 2em;
+  width: 2em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  box-shadow: 0 0 0px 5px #fff;
+}

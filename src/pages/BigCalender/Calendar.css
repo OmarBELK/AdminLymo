@@ -1,0 +1,78 @@
+/* src/Calendar.css */
+.fc {
+  background-color: "#fff" !important;
+}
+
+.fc-daygrid-day {
+  width: 130px !important;
+  /* Custom width for day cells */
+  height: 130px !important;
+  /* Custom height for day cells */
+  border: 1px solid #E8E8E8;
+  background-color: "#fff" !important;
+  /* Custom border color */
+}
+
+
+
+/* FullCalendar prev and next button styles */
+.fc-prev-button,
+.fc-next-button {
+  background-color: #FF6A19 !important;
+  /* Change button background color */
+  color: white;
+  /* Change text color */
+  border: none !important;
+  /* Remove default border */
+  border-radius: 4px;
+  /* Optional: Add rounded corners */
+  padding: 10px 20px;
+  /* Adjust padding */
+  font-size: 16px;
+  /* Adjust font size */
+  cursor: pointer;
+}
+
+
+.fc-col-header-cell {
+  color: #969696;
+  padding: 10px !important;
+  background-color: "#fff" !important;
+}
+
+.fc-toolbar {
+  padding: 16px;
+  background-color: rgba(253, 244, 232, 1);
+  margin: 0 !important;
+  /* Custom header background color */
+}
+
+.fc-toolbar-title {
+  /* Custom title text color */
+  color: #FF6A19;
+}
+
+.fc-daygrid-day-frame {
+  background-color: #fff !important;
+}
+
+.fc-daygrid-day-number {
+  color: #969696;
+  font-weight: bold;
+  /* Custom color for day numbers */
+  background-color: #fff !important;
+
+}
+
+.fc-daygrid-event {
+  background-color: #ff6600;
+  /* Custom color for events */
+  color: #fff;
+  width: fit-content;
+  padding: 6px;
+}
+
+.fc-day-today {
+  background-color: #ffcc99;
+  /* Highlight current day */
+}
